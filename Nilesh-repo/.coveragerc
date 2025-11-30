@@ -1,0 +1,39 @@
+[run]
+source = .
+omit =
+    */migrations/*
+    */tests/*
+    */admin.py
+    */apps.py
+    */settings.py
+    */urls.py
+    */wsgi.py
+    */asgi.py
+    */__init__.py
+    */__pycache__/*
+    */venv/*
+    */node_modules/*
+    manage.py
+    backend/legal_doc_generator/celery.py
+    backend/legal_doc_generator/wsgi.py
+    backend/legal_doc_generator/asgi.py
+    backend/legal_doc_generator/urls.py
+    backend/legal_doc_generator/settings.py
+    backend/authentication/migrations/*
+    backend/ai_generator/migrations/*
+    backend/chat/migrations/*
+    backend/document_summarizer/migrations/*
+    backend/documents/migrations/*
+    backend/lawyer/migrations/*
+    backend/utils/migrations/*
+
+[report]
+exclude_lines =
+    pragma: no cover
+    if TYPE_CHECKING:
+    if __name__ == "__main__":
+    raise NotImplementedError
+    if settings.DEBUG:
+
+[html]
+directory = coverage_html_report

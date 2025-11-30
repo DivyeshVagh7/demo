@@ -1,0 +1,82 @@
+.markdown-preview {
+  padding: 1rem;
+  border: 1px solid #4a5568; /* Darker border */
+  border-radius: 0.5rem;
+  background-color: #2d3748; /* Dark background */
+  height: 24rem;
+  overflow-y: auto;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 11pt;
+  line-height: 1.3;
+  color: #e2e8f0; /* Light text color */
+}
+
+.markdown-preview h1, .markdown-preview h2, .markdown-preview h3, .markdown-preview h4, .markdown-preview h5, .markdown-preview h6 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: #e2e8f0; /* Light text color for headings */
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  line-height: 1.15;
+}
+
+.markdown-preview h1 {
+  font-size: 16pt;
+  text-transform: uppercase;
+  margin-bottom: 1.5em;
+}
+
+.markdown-preview h2 {
+  font-size: 14pt;
+  text-transform: uppercase;
+  
+}
+
+.markdown-preview h3 {
+  font-size: 12pt;
+  font-weight: bold;
+  
+}
+
+.markdown-preview [data-indent="1"] { text-indent: 1.25cm; }
+.markdown-preview [data-indent="2"] { text-indent: 2.5cm; }
+.markdown-preview [data-indent="3"] { text-indent: 3.75cm; }
+.markdown-preview [data-indent="4"] { text-indent: 5.0cm; }
+
+.markdown-preview p {
+  margin-bottom: 0.8em;
+  text-align: justify;
+}
+
+.markdown-preview h1 + p, .markdown-preview h2 + p, .markdown-preview h3 + p, .markdown-preview h4 + p, .markdown-preview h5 + p, .markdown-preview h6 + p {
+  text-indent: 0;
+}
+
+.markdown-preview ul, .markdown-preview ol {
+  margin-bottom: 0.8em;
+  padding-left: 1.5cm;
+}
+
+.markdown-preview li {
+  margin-bottom: 0.3em;
+  text-align: justify;
+}
+
+.markdown-preview table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1em;
+  border: 1px solid #333333;
+}
+
+.markdown-preview th, .markdown-preview td {
+  border: 1px solid #333333;
+  padding: 6px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.markdown-preview th {
+  background-color: #4a5568; /* Darker background for table headers */
+  font-weight: bold;
+}
